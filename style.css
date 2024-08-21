@@ -42,6 +42,7 @@ span {
 }
 
 button {
+    text-decoration: none;
     margin-right: 2vw;
     padding: 0.4vh;
     font-size: var(--font-btn-l);
