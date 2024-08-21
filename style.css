@@ -1,0 +1,82 @@
+:root {
+    --bgr-color: #D0E7FF;
+    --txt-color: #424242;
+    --font-title-l: 5vw;
+    --font-btn-l: 1vw;
+    --font-title-m: 7vw;
+    --font-btn-m: 2vw;
+    --font-title-s: 10vw;
+    --font-btn-s: 3vw;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+body{
+    background-color: var(--bgr-color);
+    color: var(--txt-color);
+    font-family: 'Arimo';
+}
+
+.flex-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.global-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+h1, span {
+    font-size: var(--font-title-l);
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+span {
+    margin: 4vh;
+}
+
+button {
+    margin-right: 2vw;
+    padding: 0.4vh;
+    font-size: var(--font-btn-l);
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid 2px var(--txt-color);
+}
+
+button:hover {
+    background-color: var(--txt-color);
+    color: var(--bgr-color);
+}
+
+.increase{margin-right:0;}
+
+
+@media (501px <= width <= 1120px){
+    h1, span {
+        font-size: var(--font-title-m);
+    }
+
+    button {
+        font-size: var(--font-btn-m);
+    }
+}
+
+@media (max-width: 1120px){
+    h1, span {
+        font-size: var(--font-title-s);
+    }
+
+    button {
+        font-size: var(--font-btn-s);
+        padding: 0.6vh;
+    }
+}
