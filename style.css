@@ -6,7 +6,7 @@
     --font-title-m: 7vw;
     --font-btn-m: 2vw;
     --font-title-s: 10vw;
-    --font-btn-s: 3vw;
+    --font-btn-s: 4vw;
 }
 
 body, h1 {
@@ -43,7 +43,8 @@ span {
 
 button {
     text-decoration: none;
-    margin-right: 2vw;
+    color: var(--txt-color);
+    margin-right: 2.5vw;
     padding: 0.4vh;
     font-size: var(--font-btn-l);
     text-transform: uppercase;
@@ -78,6 +79,6 @@ button:hover {
 
     button {
         font-size: var(--font-btn-s);
-        padding: 0.6vh;
+        padding: 1vh;
     }
 }
