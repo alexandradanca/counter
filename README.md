@@ -2,7 +2,7 @@
   🔢<a href="https://alexandradanca.github.io/counter/" target="_blank">Counter</a>
 </h2>
 
-<p>This is a page that has counter functionality. </br>It was created during front-end learning journey</p>
+<p>A simple yet dynamic counter feature for tracking numbers in real-time on your webpage. </br>It was created during front-end learning journey</p>
 
 ## Built With
 - HTML
